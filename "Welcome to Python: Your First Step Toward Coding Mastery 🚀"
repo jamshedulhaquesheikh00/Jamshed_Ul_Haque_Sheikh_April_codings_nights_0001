@@ -1,0 +1,768 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN/FIUe8ayiLu+6VXzkiVhZ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/jamshedulhaquesheikh00/Jamshed_Ul_Haque_Sheikh_April_codings_nights_0001/blob/main/%22Welcome%20to%20Python%3A%20Your%20First%20Step%20Toward%20Coding%20Mastery%20%F0%9F%9A%80%22\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 01_add_two_numbers.md"
+      ],
+      "metadata": {
+        "id": "PpR4xr5m8RfT"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Starter Code"
+      ],
+      "metadata": {
+        "id": "uP7ism1b8ToI"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def add_two_numbers(num1, num2):\n",
+        "  \"\"\"\n",
+        "  Adds two numbers together.\n",
+        "\n",
+        "  Args:\n",
+        "    num1: The first number.\n",
+        "    num2: The second number.\n",
+        "\n",
+        "  Returns:\n",
+        "    The sum of the two numbers.\n",
+        "  \"\"\"\n",
+        "  # Your code here\n",
+        "  pass\n",
+        "\n",
+        "# Example usage:\n",
+        "result1 = add_two_numbers(5, 3)\n",
+        "print(result1)  # Expected output: 8\n",
+        "\n",
+        "result2 = add_two_numbers(-10, 20)\n",
+        "print(result2)  # Expected output: 10"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rpQAwJwj8Xit",
+        "outputId": "4d67faf8-2c2b-4ff6-fe58-f3d917aab3f2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "None\n",
+            "None\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Solution"
+      ],
+      "metadata": {
+        "id": "CgC17GYp89LM"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def add_two_numbers(num1, num2):\n",
+        "  \"\"\"\n",
+        "  Adds two numbers together.\n",
+        "\n",
+        "  Args:\n",
+        "    num1: The first number.\n",
+        "    num2: The second number.\n",
+        "\n",
+        "  Returns:\n",
+        "    The sum of the two numbers.\n",
+        "  \"\"\"\n",
+        "  return num1 + num2\n",
+        "\n",
+        "# Example usage:\n",
+        "result1 = add_two_numbers(5, 3)\n",
+        "print(result1)\n",
+        "\n",
+        "result2 = add_two_numbers(-10, 20)\n",
+        "print(result2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Vtof3Ua69BLX",
+        "outputId": "ffe2f1fe-5484-4116-f088-db41838c2ba0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8\n",
+            "10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## 02_agreement_bot.md"
+      ],
+      "metadata": {
+        "id": "jlZB5EFY9PRR"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Starter Code"
+      ],
+      "metadata": {
+        "id": "k1LPZI5s9Y6q"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def agreement_bot(response):\n",
+        "  \"\"\"\n",
+        "  Checks if a user's response indicates agreement.\n",
+        "\n",
+        "  Args:\n",
+        "    response: A string representing the user's input.\n",
+        "\n",
+        "  Returns:\n",
+        "    True if the response suggests agreement (e.g., \"yes\", \"yep\", \"ok\"), False otherwise.\n",
+        "    The check should be case-insensitive.\n",
+        "  \"\"\"\n",
+        "  # Your code here\n",
+        "  pass\n",
+        "\n",
+        "# Example usage:\n",
+        "print(agreement_bot(\"yes\"))    # Should print True\n",
+        "print(agreement_bot(\"Yep\"))    # Should print True\n",
+        "print(agreement_bot(\"ok\"))     # Should print True\n",
+        "print(agreement_bot(\"sure\"))   # Should print False\n",
+        "print(agreement_bot(\"no\"))     # Should print False\n",
+        "print(agreement_bot(\"Okay\"))   # Should print True"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GIRbbU7TAuvw",
+        "outputId": "21b54c9f-ed64-45c1-aa20-16bab9850f51"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "None\n",
+            "None\n",
+            "None\n",
+            "None\n",
+            "None\n",
+            "None\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Solution"
+      ],
+      "metadata": {
+        "id": "mOF_3d3aBpUr"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def agreement_bot(response):\n",
+        "  \"\"\"\n",
+        "  Checks if a user's response indicates agreement.\n",
+        "\n",
+        "  Args:\n",
+        "    response: A string representing the user's input.\n",
+        "\n",
+        "  Returns:\n",
+        "    True if the response suggests agreement (e.g., \"yes\", \"yep\", \"ok\"), False otherwise.\n",
+        "    The check should be case-insensitive.\n",
+        "  \"\"\"\n",
+        "  lower_response = response.lower()\n",
+        "  if lower_response in [\"yes\", \"yep\", \"ok\", \"okay\", \"aye\"]:\n",
+        "    return True\n",
+        "  else:\n",
+        "    return False\n",
+        "\n",
+        "# Example usage:\n",
+        "print(agreement_bot(\"yes\"))\n",
+        "print(agreement_bot(\"Yep\"))\n",
+        "print(agreement_bot(\"ok\"))\n",
+        "print(agreement_bot(\"sure\"))\n",
+        "print(agreement_bot(\"no\"))\n",
+        "print(agreement_bot(\"Okay\"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bPW1BiRcBtPP",
+        "outputId": "73ff625a-3789-4589-90fb-39473186dfd0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n",
+            "True\n",
+            "True\n",
+            "False\n",
+            "False\n",
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 03_fahrenheit_to_celsius.md"
+      ],
+      "metadata": {
+        "id": "zxkwq61JDCZe"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Starter Code"
+      ],
+      "metadata": {
+        "id": "yI1q_9VLDE9z"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def fahrenheit_to_celsius(fahrenheit):\n",
+        "  \"\"\"\n",
+        "  Converts a temperature from Fahrenheit to Celsius.\n",
+        "\n",
+        "  Args:\n",
+        "    fahrenheit: A float representing the temperature in Fahrenheit.\n",
+        "\n",
+        "  Returns:\n",
+        "    A float representing the temperature in Celsius.\n",
+        "  \"\"\"\n",
+        "  # Your code here\n",
+        "  pass\n",
+        "\n",
+        "# Example usage:\n",
+        "celsius1 = fahrenheit_to_celsius(68)\n",
+        "print(celsius1)  # Expected output: 20.0\n",
+        "\n",
+        "celsius2 = fahrenheit_to_celsius(32)\n",
+        "print(celsius2)  # Expected output: 0.0\n",
+        "\n",
+        "celsius3 = fahrenheit_to_celsius(212)\n",
+        "print(celsius3)  # Expected output: 100.0"
+      ],
+      "metadata": {
+        "id": "bDXeYnA6DJUZ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Solution"
+      ],
+      "metadata": {
+        "id": "BnvULNVYDhoh"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def fahrenheit_to_celsius(fahrenheit):\n",
+        "  \"\"\"\n",
+        "  Converts a temperature from Fahrenheit to Celsius.\n",
+        "\n",
+        "  Args:\n",
+        "    fahrenheit: A float representing the temperature in Fahrenheit.\n",
+        "\n",
+        "  Returns:\n",
+        "    A float representing the temperature in Celsius.\n",
+        "  \"\"\"\n",
+        "  celsius = (fahrenheit - 32) * 5/9\n",
+        "  return celsius\n",
+        "\n",
+        "# Example usage:\n",
+        "celsius1 = fahrenheit_to_celsius(68)\n",
+        "print(celsius1)\n",
+        "\n",
+        "celsius2 = fahrenheit_to_celsius(32)\n",
+        "print(celsius2)\n",
+        "\n",
+        "celsius3 = fahrenheit_to_celsius(212)\n",
+        "print(celsius3)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sel-yk06Dl5b",
+        "outputId": "8e01fc10-a349-4a7a-e74a-8925134c8cd4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "20.0\n",
+            "0.0\n",
+            "100.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 04_how_old_are_they.md"
+      ],
+      "metadata": {
+        "id": "czGGN8KYHopc"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Starter Code"
+      ],
+      "metadata": {
+        "id": "Fb3U_JDGHtEh"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from datetime import date\n",
+        "\n",
+        "def calculate_age(birth_year, birth_month, birth_day):\n",
+        "  \"\"\"\n",
+        "  Calculates the age of a person given their birth date.\n",
+        "\n",
+        "  Args:\n",
+        "    birth_year: An integer representing the birth year.\n",
+        "    birth_month: An integer representing the birth month (1-12).\n",
+        "    birth_day: An integer representing the birth day.\n",
+        "\n",
+        "  Returns:\n",
+        "    An integer representing the person's age in years.\n",
+        "  \"\"\"\n",
+        "  today = date.today()\n",
+        "  birth_date = date(birth_year, birth_month, birth_day)\n",
+        "  age = today.year - birth_date.year - ((today.month, today.day) < (birth_date.month, birth_date.day))\n",
+        "  return age\n",
+        "\n",
+        "def how_old_are_they(people):\n",
+        "  \"\"\"\n",
+        "  Calculates and prints the age of each person in a dictionary.\n",
+        "\n",
+        "  Args:\n",
+        "    people: A dictionary where keys are names (strings) and values are\n",
+        "            tuples representing their birth date (year, month, day).\n",
+        "  \"\"\"\n",
+        "  # Your code here\n",
+        "  pass\n",
+        "\n",
+        "# Example usage:\n",
+        "person_data = {\n",
+        "    \"Alice\": (1990, 5, 15),\n",
+        "    \"Bob\": (1985, 12, 20),\n",
+        "    \"Charlie\": (2000, 3, 10)\n",
+        "}\n",
+        "\n",
+        "how_old_are_they(person_data)\n",
+        "# Expected output (will vary slightly depending on the current date):\n",
+        "# Alice is 34 years old.\n",
+        "# Bob is 39 years old.\n",
+        "# Charlie is 25 years old."
+      ],
+      "metadata": {
+        "id": "-ap9DE0rHwrS"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Solution"
+      ],
+      "metadata": {
+        "id": "B7a5lZ6xIPfI"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from datetime import date\n",
+        "\n",
+        "def calculate_age(birth_year, birth_month, birth_day):\n",
+        "  \"\"\"\n",
+        "  Calculates the age of a person given their birth date.\n",
+        "\n",
+        "  Args:\n",
+        "    birth_year: An integer representing the birth year.\n",
+        "    birth_month: An integer representing the birth month (1-12).\n",
+        "    birth_day: An integer representing the birth day.\n",
+        "\n",
+        "  Returns:\n",
+        "    An integer representing the person's age in years.\n",
+        "  \"\"\"\n",
+        "  today = date.today()\n",
+        "  birth_date = date(birth_year, birth_month, birth_day)\n",
+        "  age = today.year - birth_date.year - ((today.month, today.day) < (birth_date.month, birth_date.day))\n",
+        "  return age\n",
+        "\n",
+        "def how_old_are_they(people):\n",
+        "  \"\"\"\n",
+        "  Calculates and prints the age of each person in a dictionary.\n",
+        "\n",
+        "  Args:\n",
+        "    people: A dictionary where keys are names (strings) and values are\n",
+        "            tuples representing their birth date (year, month, day).\n",
+        "  \"\"\"\n",
+        "  for name, birth_info in people.items():\n",
+        "    year, month, day = birth_info\n",
+        "    age = calculate_age(year, month, day)\n",
+        "    print(f\"{name} is {age} years old.\")\n",
+        "\n",
+        "# Example usage:\n",
+        "person_data = {\n",
+        "    \"Alice\": (1990, 5, 15),\n",
+        "    \"Bob\": (1985, 12, 20),\n",
+        "    \"Charlie\": (2000, 3, 10)\n",
+        "}\n",
+        "\n",
+        "how_old_are_they(person_data)\n",
+        "# Expected output (based on the current date of April 4, 2025):\n",
+        "# Alice is 34 years old.\n",
+        "# Bob is 39 years old.\n",
+        "# Charlie is 25 years old."
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7M8dJw6RIS3e",
+        "outputId": "6e31c3c9-4882-45aa-9d32-c32c0b0ab0a6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Alice is 34 years old.\n",
+            "Bob is 39 years old.\n",
+            "Charlie is 25 years old.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 05_triangle_perimeter.md"
+      ],
+      "metadata": {
+        "id": "IFf5pFF7IoPU"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Starter Code"
+      ],
+      "metadata": {
+        "id": "Cck8VIBMIsTi"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "\n",
+        "def triangle_perimeter(side1, side2, side3):\n",
+        "  \"\"\"\n",
+        "  Calculates the perimeter of a triangle given the lengths of its three sides.\n",
+        "\n",
+        "  Args:\n",
+        "    side1: The length of the first side (float or integer).\n",
+        "    side2: The length of the second side (float or integer).\n",
+        "    side3: The length of the third side (float or integer).\n",
+        "\n",
+        "  Returns:\n",
+        "    The perimeter of the triangle (float or integer).\n",
+        "  \"\"\"\n",
+        "  # Your code here\n",
+        "  pass\n",
+        "\n",
+        "# Example usage:\n",
+        "perimeter1 = triangle_perimeter(3, 4, 5)\n",
+        "print(perimeter1)  # Expected output: 12\n",
+        "\n",
+        "perimeter2 = triangle_perimeter(1.5, 2.5, 3.5)\n",
+        "print(perimeter2)  # Expected output: 7.5"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rBkaOAKtIwHQ",
+        "outputId": "e2347574-ed36-4d84-8122-a0841fd59ed1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "None\n",
+            "None\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Solution"
+      ],
+      "metadata": {
+        "id": "GDwpcuDNJimv"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "\n",
+        "def triangle_perimeter(side1, side2, side3):\n",
+        "  \"\"\"\n",
+        "  Calculates the perimeter of a triangle given the lengths of its three sides.\n",
+        "\n",
+        "  Args:\n",
+        "    side1: The length of the first side (float or integer).\n",
+        "    side2: The length of the second side (float or integer).\n",
+        "    side3: The length of the third side (float or integer).\n",
+        "\n",
+        "  Returns:\n",
+        "    The perimeter of the triangle (float or integer).\n",
+        "  \"\"\"\n",
+        "  return side1 + side2 + side3\n",
+        "\n",
+        "# Example usage:\n",
+        "perimeter1 = triangle_perimeter(3, 4, 5)\n",
+        "print(perimeter1)\n",
+        "\n",
+        "perimeter2 = triangle_perimeter(1.5, 2.5, 3.5)\n",
+        "print(perimeter2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PVWSsU9DJlVs",
+        "outputId": "9000122c-0cb3-42a7-f79a-230cad28ab6e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "12\n",
+            "7.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 06_square_number.md"
+      ],
+      "metadata": {
+        "id": "_ikaamKsKYYV"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "-IgdXsm3Ka7A"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Starter Code"
+      ],
+      "metadata": {
+        "id": "nTSm-EoXKbHD"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def is_square(number):\n",
+        "  \"\"\"\n",
+        "  Checks if a given number is a perfect square.\n",
+        "\n",
+        "  Args:\n",
+        "    number: An integer.\n",
+        "\n",
+        "  Returns:\n",
+        "    True if the number is a perfect square, False otherwise.\n",
+        "  \"\"\"\n",
+        "  # Your code here\n",
+        "  pass\n",
+        "\n",
+        "# Example usage:\n",
+        "print(is_square(9))   # Should print True\n",
+        "print(is_square(16))  # Should print True\n",
+        "print(is_square(10))  # Should print False\n",
+        "print(is_square(0))   # Should print True\n",
+        "print(is_square(-1))  # Should print False"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MSd_mdirKg8H",
+        "outputId": "7d191242-9420-49ef-f58d-f7fe0e9ea959"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "None\n",
+            "None\n",
+            "None\n",
+            "None\n",
+            "None\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Solution"
+      ],
+      "metadata": {
+        "id": "wU4kVNIuK6e8"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "\n",
+        "def is_square(number):\n",
+        "  \"\"\"\n",
+        "  Checks if a given number is a perfect square.\n",
+        "\n",
+        "  Args:\n",
+        "    number: An integer.\n",
+        "\n",
+        "  Returns:\n",
+        "    True if the number is a perfect square, False otherwise.\n",
+        "  \"\"\"\n",
+        "  if number < 0:\n",
+        "    return False\n",
+        "  if number == 0:\n",
+        "    return True\n",
+        "  sqrt_num = int(math.sqrt(number))\n",
+        "  return sqrt_num * sqrt_num == number\n",
+        "\n",
+        "# Example usage:\n",
+        "print(is_square(9))\n",
+        "print(is_square(16))\n",
+        "print(is_square(10))\n",
+        "print(is_square(0))\n",
+        "print(is_square(-1))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "H5b1E73iK9Fp",
+        "outputId": "7bc54364-9a9f-46f7-9b32-68f9f527e246"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n",
+            "True\n",
+            "False\n",
+            "True\n",
+            "False\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
